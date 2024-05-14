@@ -26,6 +26,16 @@ We are collecting **TODOs** and **HOWTOs**, if you need more features (*e.g.* mo
 
 If you find this repository useful for your work, please consider citing it as [such](./citation.bib).
 
+## Benchmark Study
+This repository facilitates benchmarking various time series forecasting methods (e.g., N-BEATS, PatchTST, D-Linear, etc.) for traffic state forecasting tasks. The library enables conducting experiments such as:
+
+- Benchmarking different look-back windows on the PEMS-BAY dataset for various forecasting horizons (e.g., 15 minutes, 30 minutes, 60 minutes, etc.).
+- Comparing the performance of graph-based models (e.g., DGCRN, D2STGNN) with traditional time series forecasting models using the NDW dataset.
+- Investigating the impact of sampling rate variations (1 minutes, 5 minutes etc.) in the NDW dataset on the resulting metrics.
+
+See the paper *[Exploring Progress in Multivariate Time Series Forecasting:
+Comprehensive Benchmarking and Heterogeneity Analysis](https://arxiv.org/pdf/2310.06119.pdf).*
+
 ## ✨ Highlighted Features
 
 ### Fair Performance Review
